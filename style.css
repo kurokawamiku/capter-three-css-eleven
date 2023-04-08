@@ -4,8 +4,6 @@
 margin: 0;
 }
 .flexcontainer {
-  width: 400px;
-  height: 450px;
   display: flex;
 }
 .red--box{
@@ -13,20 +11,37 @@ margin: 0;
   height: 100px;
   background: #f00;
 }
-.purple--box{
+.purple--box1{
   width: 40px;
   height: 40px;
   background: #a9004b;
+  float: right;
+  right: 20px;
+  top: 20px;
+  position: relative;
+  border: solid 10px #ffffff;
+  align-items: center;
 }
-.purple--box{
+.purple--box2{
   width: 40px;
   height: 40px;
   background: #a9004b;
+  float: right;
+  right: 10px;
+  top: 20px;
+  position: relative;
+  border: solid 10px #ffffff;
+  align-items: center;
 }
-.purple--box{
+.purple--box3{
   width: 40px;
   height: 40px;
   background: #a9004b;
+  float: right;
+  top: 20px;
+  position: relative;
+  border: solid 10px #ffffff;
+  align-items: center;
 }
 .green--box{
   width: 150px;
@@ -40,20 +55,42 @@ margin: 0;
   background: #8c2727;
   float: left;
 }
-.orange--box{
+.orange--box1{
   width: 140px;
   height: 40px;
   background: #ff863f;
+  position: relative;
+  float: left;
+  left: 40px;
+  top: 40px;
+  border: solid 5px#ffffff;
+  display: block;
+  justify-content: center;
+  margin-bottom: 5px;
 }
-.orange--box{
+.orange--box2{
   width: 140px;
   height: 40px;
   background: #ff863f;
+  position: relative;
+  float: left;
+  left: 40px;
+  top: 40px;
+  border: solid 5px#ffffff;
+  display: block;
+  margin-bottom: 5px;
 }
-.orange--box{
+.orange--box3{
   width: 140px;
   height: 40px;
   background: #ff863f;
+  position: relative;
+  float: left;
+  left: 40px;
+  top: 40px;
+  border: solid 5px#ffffff;
+  display: block;
+  margin-bottom: 5px;
 }
 .yellow--box{
   width: 400px;
