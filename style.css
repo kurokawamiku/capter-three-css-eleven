@@ -1,35 +1,31 @@
 @charset "utf-8";
 .body {
   width: 100%;
-}
-.clearfix{
   width: 400px;
   height: 350px;
 }
 .red--box{
+  width: 400px;
   height: 100px;
   background: #f00;
 }
-.purple--box{
-  width: 40px;
-  height: 40px;
-  background: #a9004b;
+.aiu{
+  width: 160px;
+  height: 60px;
+  background: #ffffff;
   float: right;
-  right: 20px;
   top: 20px;
+  right: 20px;
+  padding: 10px;
   position: relative;
-  border: solid 10px #ffffff;
 }
-.purple--box1{
+.header--box{
   width: 40px;
   height: 40px;
   background: #a9004b;
-  float: right;
-  right: 20px;
-  top: 20px;
-  position: relative;
-  border-top: solid 10px #ffffff;
-  border-bottom: solid 10px #ffffff;
+  float: left;
+  position: absolute;
+  left: 10px;
 }
 .green--box{
  width: 150px;
@@ -55,8 +51,6 @@
   border: solid 5px#ffffff;
   margin-bottom: 10px;
 }
-
-
 .yellow--box{
   width: 400px;
   height: 100px;
