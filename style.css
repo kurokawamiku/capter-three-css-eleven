@@ -35,6 +35,9 @@
  background: #00ff51;
  float: left;
 }
+.main{
+  position: relative;
+}
 .brown--box{
   width: 250px;
   height: 250px;
@@ -48,7 +51,6 @@
   float: left;
   left: 40px;
   top: 40px;
-  position: relative;
   border: solid 5px#ffffff;
   margin-bottom: 10px;
 }
