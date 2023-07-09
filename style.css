@@ -10,7 +10,7 @@
   background: #f00;
 }
 .aiu{
-  width: 150px;
+  width: 140px;
   height: 40px;
   background: #ffffff;
   float: right;
@@ -35,22 +35,22 @@
  background: #00ff51;
  float: left;
 }
-.main{
-  position: relative;
-}
 .brown--box{
   width: 250px;
   height: 250px;
   background: #8e2727;
   float: left;
 }
+.main{
+  top: 40px;
+  left: 40px;
+  position: relative;
+}
 .orange--box{
   width: 140px;
   height: 40px;
   background: #ff863f;
   float: left;
-  left: 40px;
-  top: 40px;
   border: solid 5px#ffffff;
   margin-bottom: 10px;
 }
