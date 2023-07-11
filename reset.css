@@ -1,0 +1,69 @@
+@charset "utf-8";
+.body {
+  width: 100%;
+  width: 400px;
+  height: 350px;
+}
+.red--box{
+  width: 400px;
+  height: 100px;
+  background: #f00;
+}
+.aiu{
+  width: 140px;
+  height: 40px;
+  background: #ffffff;
+  float: right;
+  top: 20px;
+  right: 20px;
+  padding: 10px;
+  position: relative;
+}
+.purple--box{
+  width: 40px;
+  height: 40px;
+  background: #a9004b;
+  float: left;
+  margin-right: 10px;
+}
+.purple--box:last-child{
+  margin-right: 0;
+}
+.green--box{
+ width: 150px;
+ height: 250px;
+ background: #00ff51;
+ float: left;
+}
+.brown--box{
+  width: 250px;
+  height: 250px;
+  background: #8e2727;
+  float: left;
+}
+.main{
+  top: 40px;
+  left: 40px;
+  position: relative;
+}
+.orange--box{
+  width: 140px;
+  height: 40px;
+  background: #ff863f;
+  float: left;
+  border: solid 5px#ffffff;
+  margin-bottom: 10px;
+}
+.orenge--box:last-child{
+  margin-bottom: 0;
+}
+.yellow--box{
+  width: 400px;
+  height: 100px;
+  background: #ffe600;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
