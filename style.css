@@ -8,16 +8,16 @@
   width: 400px;
   height: 100px;
   background: #f00;
+  position: relative;
 }
 .aiu{
   width: 140px;
   height: 40px;
   background: #ffffff;
-  float: right;
+  position: absolute;
   top: 20px;
   right: 20px;
   padding: 10px;
-  position: relative;
 }
 .purple--box{
   width: 40px;
@@ -51,7 +51,6 @@
   width: 140px;
   height: 40px;
   background: #ff863f;
-  float: left;
   border: solid 5px#ffffff;
   margin-top: 10px;
 }
